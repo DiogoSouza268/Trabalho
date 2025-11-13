@@ -21,3 +21,37 @@ body {
   margin: 0;
   padding: 0;
 }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 2.5rem;
+}
+
+.main-content {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
