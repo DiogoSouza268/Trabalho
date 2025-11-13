@@ -1,0 +1,23 @@
+:root {
+  --primary: #135bec;
+  --text-dark: #111318;
+  --gray-light: #dbdfe6;
+  --gray-text: #616f89;
+  --bg: #f6f6f8;
+  --white: #ffffff;
+  --red: #e53935;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--bg);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
